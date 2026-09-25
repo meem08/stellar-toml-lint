@@ -17,20 +17,15 @@ import {
   formatGithub,
   formatHtml,
   formatJson,
-  formatJson,
   formatJunit,
   formatReadiness,
   formatReadinessJson,
   formatSarif,
   formatText,
+  formatNdjson,
+  formatSummary,
 } from './reporters.js';
 import { calculateReadiness } from './readiness.js';
-  formatNdjson,
-  formatJunit,
-  formatSarif,
-  formatSummary,
-  formatText,
-} from './reporters.js';
 import { expandGlob, hasMagic } from './glob.js';
 import { checkDisplayDecimals } from './rules/display-decimals-audit.js';
 import { checkHorizon } from './rules/horizon-check.js';
